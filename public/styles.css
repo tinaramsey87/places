@@ -7,7 +7,7 @@ body {
   background-color: #18B197;
   margin-top: 15%;
   width: 400px;
-  height: 400px;
+  height: 350px;
   margin-left: 0 auto;
   padding: 15px;
   border: solid #007B66;
@@ -18,7 +18,7 @@ body {
 .list {
   overflow-y: scroll;
   max-height: 190px;
-  
+
 }
 
 h1 {
@@ -39,4 +39,9 @@ ul {
 
 .form-group {
   margin-left: 15px;
+}
+
+.resetbtn {
+  margin-left: 140px;
+
 }

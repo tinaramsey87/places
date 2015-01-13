@@ -12,11 +12,17 @@
 
 <p>Enter a new place:</p>
 
-<form action="/places" method="post">
-  <div class="form-group">
+<div class="form-group">
+  <form action="/places" method="post">
     <label for="description">Place name</label>
-    <input id="description" name="description" type="text" autofocus >
+    <input id="description" name="description" type="text" autofocus required>
 
     <button type="submit">Add place</button>
-  </div>
-</form>
+  </form>
+</div>
+
+<div class="resetbtn">
+  <form action="/" method="post">
+    <button type="submit">Clear the list</button>
+  </form>
+</div>
