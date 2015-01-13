@@ -2,17 +2,21 @@
 
 <p>Here are all the places you've been:</p>
 
-<ul>
-  <% @places.each() do |place| %>
-  <li><%= place.description() %></li>
-  <% end %>
-</ul>
+<div class="list">
+  <ul>
+    <% @places.each() do |place| %>
+    <li><%= place.description() %></li>
+    <% end %>
+  </ul>
+</div>
 
 <p>Enter a new place:</p>
 
 <form action="/places" method="post">
-  <label for="description">Place name</label>
-  <input id="description" name="description" type="text">
+  <div class="form-group">
+    <label for="description">Place name</label>
+    <input id="description" name="description" type="text" autofocus >
 
-  <button type="submit">Add place</button>
+    <button type="submit">Add place</button>
+  </div>
 </form>
