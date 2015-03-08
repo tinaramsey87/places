@@ -25,5 +25,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  sinatra
+  sinatra (= 1.4.5)
   sinatra-contrib
